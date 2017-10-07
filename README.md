@@ -1,1 +1,1 @@
-# CanonnED3D-ALL-Map
+# CanonnED3D-GR-Map
