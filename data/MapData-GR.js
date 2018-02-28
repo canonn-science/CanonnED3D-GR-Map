@@ -25,6 +25,10 @@ var canonnEd3d_gr = {
 				"402": {
 					"name": "Gamma",
 					"color": "f441d0"
+				},
+				"403": {
+					"name": "Structure",
+					"color": "3380ff"
 				}
 			},
 			"Error Sites": {
@@ -96,6 +100,8 @@ var canonnEd3d_gr = {
 					grSite["cat"] = [401];
 				} else if (data[i].type.toString() == "Gamma") {
 					grSite["cat"] = [402];
+				} else if (data[i].type.toString() == "Structure") {
+					grSite["cat"] = [403];
 				} else {
 					grSite["cat"] = [600];
 				}
